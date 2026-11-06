@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>March for Malaysia — Petition & Resources for Philadelphia Families</title>
+<meta name="description" content="Sign the petition for Malaysia Allford — Jalayshia “Malayshia” Alford, age 10 — and for 500+ missing children in Pennsylvania. March: Saturday Nov 7, 10am, Broad & Hunting Park to City Hall, Philadelphia. Plus who to call, first steps, family stories, and the When Philly PD Fails You tool.">
+<style>
+body { font-family: system-ui, -apple-system, sans-serif; line-height: 1.6; margin: 0; background: #0f1419; color: #e8e6e3; }
+header { background: linear-gradient(135deg, #1a2332, #0d1117); padding: 2rem; text-align: center; border-bottom: 2px solid #d4af37; }
+h1 { margin: 0; font-size: 2.2rem; color: #d4af37; }
+.subtitle { color: #a0aec0; margin-top: 0.5rem; }
+.container { max-width: 900px; margin: 0 auto; padding: 2rem; }
+.goal { background: #1a2332; padding: 1.5rem; border-radius: 12px; margin: 1.5rem 0; border-left: 4px solid #d4af37; }
+.counter { font-size: 2.5rem; font-weight: bold; color: #d4af37; }
+form { background: #161b22; padding: 1.5rem; border-radius: 12px; margin: 1.5rem 0; }
+label { display: block; margin: 0.8rem 0 0.3rem; font-weight: 600; }
+input, textarea, select { width: 100%; padding: 0.7rem; border: 1px solid #30363d; border-radius: 6px; background: #0d1117; color: #e8e6e3; box-sizing: border-box; }
+button { background: #d4af37; color: #0f1419; border: none; padding: 0.9rem 1.8rem; font-size: 1rem; font-weight: bold; border-radius: 6px; cursor: pointer; margin-top: 1rem; }
+button:hover { background: #e6c35c; }
+.timeline { margin-top: 2rem; }
+.entry { background: #1a2332; padding: 1rem; margin: 0.8rem 0; border-radius: 8px; border-left: 3px solid #4a9eff; }
+.resources { background: #0d1117; padding: 1.5rem; border-radius: 12px; }
+a { color: #4a9eff; }
+footer { text-align: center; padding: 2rem; color: #6b7280; font-size: 0.9rem; border-top: 1px solid #30363d; margin-top: 3rem; }
+</style>
+</head>
+<body>
+<header>
+<h1>March for Malaysia</h1>
+<p class="subtitle">Petition & Resources for Philadelphia Families • Think Tank Solutions AI</p>
+</header>
+<div class="container">
+<section>
+<p><strong>For Malaysia Allford</strong> — Jalayshia “Malayshia” Alford, age 10 — and for the 500+ missing children in Pennsylvania every year.</p>
+<p><strong>March:</strong> Saturday, November 7, 2026 • 10:00 AM • Broad & Hunting Park to City Hall, Philadelphia.</p>
+</section>
+<div class="goal">
+<div class="counter" id="sigCount">1</div>
+<div>Signatures toward 100,000 goal</div>
+<p>Join the good-faith effort to demand federal oversight and investigation into missing children in Philadelphia. Families should not have to fight media name variations while grieving.</p>
+</div>
+<h2>Sign the Petition</h2>
+<form name="petition-signatures" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+<input type="hidden" name="form-name" value="petition-signatures">
+<p style="display:none"><label>Don’t fill this out: <input name="bot-field"></label></p>
+<label>Your Name *</label>
+<input type="text" name="name" required>
+<label>Email (optional, for updates)</label>
+<input type="email" name="email">
+<label>City / Neighborhood</label>
+<input type="text" name="location" placeholder="Philadelphia, PA">
+<label>Why are you signing? / Message for the family or community</label>
+<textarea name="message" rows="4" placeholder="Share why this matters, correct any facts, or offer support..."></textarea>
+<label>Relationship (optional)</label>
+<select name="relationship">
+<option value="Community member">Community member</option>
+<option value="Parent / Family of missing child">Parent / Family of missing child</option>
+<option value="Supporter / Ally">Supporter / Ally</option>
+<option value="Media / Advocate">Media / Advocate</option>
+</select>
+<button type="submit">Sign the Petition</button>
+</form>
+<div class="timeline">
+<h2>Rolling Timeline of Support</h2>
+<p>The original reason this hub was created (November 5, 2026, ~10 PM EST):</p>
+<div class="entry">
+<strong>Tinysia Rassmann / Think Tank Solutions AI</strong> — First signature<br>
+After seeing the news and a friend’s call for a march this Saturday, we built this portal in under an hour so families can share accurate names, facts the media missed, and find first steps when Philadelphia systems fail. Four different renditions of this young girl’s name while the family is grieving is unacceptable. This is showing, not telling, what systems and good-faith community effort can do.
+</div>
+<div id="timelineEntries"></div>
+<p><em>Full public rolling timeline will be maintained by the March for Malaysia oversight bot. New signatures appear here as they are processed. Submissions are securely stored via Netlify Forms.</em></p>
+</div>
+<div class="resources">
+<h2>Resources for Families</h2>
+<ul>
+<li>Who to call: PA State Police, Citizens Police Oversight Commission, Community Legal Services</li>
+<li>First steps: Private criminal complaint for harassment (misdemeanor), cease & desist, parental rights statutes</li>
+<li>When Philly PD Fails You tool and guide (linked from Think Tank Digital)</li>
+<li>Share accurate information about your loved one here</li>
+</ul>
+<p>This is a free public resource created by Think Tank Solutions AI to help Philadelphia families and demand better for the 500+ missing children each year.</p>
+</div>
+</div>
+<footer>
+Created by Think Tank Solutions AI • Community effort for Philadelphia families • Not affiliated with any official investigation<br>
+Live site: march-for-malaysia.netlify.app • Repo: github.com/tinyrassmann-tweek/march-for-malaysia-petition
+</footer>
+<script>
+// Simple client-side counter seed; real count comes from form submissions
+document.getElementById('sigCount').textContent = '1';
+// Future: fetch public submissions or bot-updated count
+</script>
+</body>
+</html>
