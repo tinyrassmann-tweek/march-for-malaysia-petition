@@ -1,0 +1,18 @@
+{
+  "projects": {
+    "default": "think-tank-solutions-ai"
+  },
+  "targets": {
+    "think-tank-solutions-ai": {
+      "hosting": {
+        "primary": [
+          "think-tank-solutions-ai"
+        ],
+        "community": [
+          "march-for-malayshia"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
